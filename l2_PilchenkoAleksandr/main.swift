@@ -16,6 +16,18 @@ for sorting in numberArray{
         print("\(sorting) нечетное число")
     }
 }
+// вариант через switch
+var arrayNumber = [66, 43, 67, 12, 30, 26]
+
+for sorting in arrayNumber{
+    switch sorting % 2 {
+    case 0:
+        print("\(sorting) четное число")
+    default:
+        print("\(sorting) не четное число")
+    }
+    
+}
 
 //Задание 2. Написать функцию, которая определит делится ли число без остатка на 3.
 for sortingTwo in numberArray{
